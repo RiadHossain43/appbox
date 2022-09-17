@@ -21,3 +21,31 @@ Now change your working directory to **appbox**
 ```shell
 cd appbox
 ```
+
+### Intialise lerna
+
+Run the folling command
+
+```shell
+npm install
+```
+
+or
+
+```shell
+yarn install
+```
+
+To initialise `lerna` run the following commands
+
+```shell
+npx learna@latest init
+```
+
+To bootstrap all the packages run folloing command
+
+```shell
+npx learna bootstrap --hoist
+```
+
+`--hoist` flag will hoist all your lerna dependency in the root of the project.
