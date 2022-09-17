@@ -1,0 +1,14 @@
+{
+  "name": "@appbox/client-sdk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Riadhossain43",
+  "license": "MIT",
+  "scripts": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
